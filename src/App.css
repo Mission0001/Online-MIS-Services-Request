@@ -1,30 +1,67 @@
+* {
+	box-sizing: border-box;
+	justify-content: center;
+}
 body {
-	margin: 10px 100px 10px 100px;
+	font-size: 15px;
+	padding: 0%;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .container {
-	flex: 1;
-	font-size: 15px;
+	align-items: center;
+}
+
+.container-rightside {
 	align-items: center;
 }
 
 .contact-info {
 	display: flex;
 	padding: 5px;
-	gap: 8px;
+	gap: 10px;
+}
+
+h1 img {
+	margin-left: 40px;
+}
+.logocolor {
+	background-color: rgb(10, 89, 61);
+	background-position: center;
+	height: 100px;
+	margin: 0%;
+}
+footer {
+	margin-bottom: 0%;
+}
+
+.copyright {
+	background-color: rgb(10, 89, 61);
+	height: 50px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding: 8px;
+}
+.logo .color2,
+.footer .color2 {
+	background-color: rgb(212, 212, 26);
+	height: 10px;
+	margin-top: 0%;
+	margin-bottom: 0%;
 }
 
 input {
 	padding: 3px;
 	align-items: spaced-between;
-	max-width: 110px;
-	max-height: 20px;
+width: 110px;
+	height: 20px;
 }
 .contact-label {
 	display: flex;
 	padding: 5px;
-	gap: 60px;
-	margin-left: 80px;
+	gap: 50px;
+	margin-right: 50px;
 }
 
 .contact-label2 {
@@ -33,10 +70,88 @@ input {
 	gap: 5px;
 }
 
-fieldset {
-	max-width: 10%;
+.wrapper {
+	margin: 50px 200px 50px 200px;
+	display: flex;
+	flex-direction: row;
+	align-items: spaced-between;
+	gap: 8px;
+	padding: 5px;
 }
 
-p.bold{
-  font-weight: bold;
+.wrapper2 {
+	display: flex;
+	height: 80vh;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	background-size: cover;
+	background-image: url('./Images/CARAGA STATE UNIVERSITY CABADBARN CITY (3).png');
+	background-size: no-repeat;
+	margin-bottom: 0%;
+	gap: 20px;
+}
+
+.wrapper2 .form1 {
+	margin-top: 10%;
+	margin-left: 5%;
+}
+.greeting {
+	font-size: 40px;
+	color: rgb(11, 8, 0);
+	font-weight: bold;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: justify;
+}
+fieldset.formlogin {
+	border-color: white;
+	background-color: white;
+	align-items: center;
+	width: 500px;
+	height: 400px;
+	padding: 10px;
+	float: right;
+}
+
+
+p.bold {
+	font-weight: bold;
+}
+
+.horizontal {
+	display: flex;
+	flex-direction: row;
+	align-items: spaced-between;
+	gap: 8px;
+}
+
+table,
+th,
+td {
+	border: 0.5px solid black;
+}
+
+input.input1 {
+width: 500px;
+height: 40px;
+padding: 10px;
+	margin: 6px;
+	border-radius: 5px;
+
+}
+
+button.button1{
+	width: 500px;
+height: 30px;
+text-align: center;
+padding: 5px;
+	margin: 6px;
+	background-color: #4caf50;
+	Color: white;
+	border-radius: 5px;
+
+}
+
+.formlogin h1{
+	text-align: center;
 }
