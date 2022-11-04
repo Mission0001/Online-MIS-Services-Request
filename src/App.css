@@ -1,6 +1,6 @@
+
 * {
 	box-sizing: border-box;
-	justify-content: center;
 }
 body {
 	font-size: 15px;
@@ -22,13 +22,11 @@ body {
 	gap: 10px;
 }
 
-h1 img {
-	margin-left: 40px;
-}
 .logocolor {
 	background-color: rgb(10, 89, 61);
 	background-position: center;
-	height: 100px;
+	height: 120px;
+	padding: 8px;
 	margin: 0%;
 }
 footer {
@@ -46,35 +44,53 @@ footer {
 .logo .color2,
 .footer .color2 {
 	background-color: rgb(212, 212, 26);
-	height: 10px;
-	margin-top: 0%;
-	margin-bottom: 0%;
+	height: 5px;
+margin: 0%;
 }
 
 input {
 	padding: 3px;
 	align-items: spaced-between;
-width: 110px;
-	height: 20px;
+	
+
 }
 .contact-label {
 	display: flex;
 	padding: 5px;
-	gap: 50px;
-	margin-right: 50px;
+	gap: 77px;
+	margin-left: 100px;
 }
 
 .contact-label2 {
 	display: flex;
 	padding: 5px;
+	gap: 8px;
+	align-items: flex-start;
+
+}
+
+fieldset .contact-label2 input{
+	border: transparent;
+	border-bottom: 2px solid gray;
+	width: 334px;
+}
+
+.checkboxwrapper {
+	display: flex;
+	padding: 5px;
 	gap: 5px;
+	align-items: flex-start;
+}
+fieldset .checkboxwrapper input.others{
+	border: transparent;
+	border-bottom: 2px solid gray;
+	width: 527px;
 }
 
 .wrapper {
-	margin: 50px 200px 50px 200px;
 	display: flex;
 	flex-direction: row;
-	align-items: spaced-between;
+	align-items: spaced-around;
 	gap: 8px;
 	padding: 5px;
 }
@@ -91,17 +107,73 @@ width: 110px;
 	margin-bottom: 0%;
 	gap: 20px;
 }
+ fieldset  .contact-info input
+{
+border: transparent;
+border-bottom: 2px solid gray;
+
+}
+
+.greeting1 {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	background-size: cover;
+	background-image: url('./Images/CARAGA STATE UNIVERSITY CABADBARN CITY (1000 × 1080 px) (900 × 1080 px) (3).png');
+	background-repeat: no-repeat;
+	margin: 0%;
+	width: 900px;
+	color: yellow;
+	font-size: 40px;
+	text-align: center;
+}
+
+.form-container {
+float: left;
+width: 100%;
+height: 100vh;
+	align-items: center;
+}
+
+.wrapper4 {
+	display: flex;
+	height: 100vh;
+	width: 100%;
+
+}
+
 
 .wrapper2 .form1 {
 	margin-top: 10%;
 	margin-left: 5%;
 }
+
+.wrapper3 {
+	display: flex;
+	height: 80vh;
+	padding: 5px;
+	margin: 0%;
+	flex-direction: row;
+}
+
+.dashboard{
+	background-color: rgb(242, 251, 248);
+	height: 80vh;
+margin: 0%;
+width: 300px;
+float: right;
+font-size: 20px;
+color: black;
+padding: 10px;
+
+}
+
 .greeting {
 	font-size: 40px;
-	color: rgb(11, 8, 0);
-	font-weight: bold;
+	color: rgb(10, 16, 4);
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	text-align: justify;
 }
 fieldset.formlogin {
 	border-color: white;
@@ -114,21 +186,27 @@ fieldset.formlogin {
 }
 
 
-p.bold {
-	font-weight: bold;
-}
-
 .horizontal {
 	display: flex;
 	flex-direction: row;
-	align-items: spaced-between;
 	gap: 8px;
+	float: left;
 }
+
+
 
 table,
 th,
 td {
 	border: 0.5px solid black;
+}
+
+
+table.table{
+	width: 70%;
+	height: 10%;
+	margin-left: 15%;
+	margin-top: 5%;
 }
 
 input.input1 {
@@ -137,6 +215,7 @@ height: 40px;
 padding: 10px;
 	margin: 6px;
 	border-radius: 5px;
+
 
 }
 
@@ -149,9 +228,15 @@ padding: 5px;
 	background-color: #4caf50;
 	Color: white;
 	border-radius: 5px;
+	border-color: white;
 
 }
 
 .formlogin h1{
 	text-align: center;
+}
+
+.content{
+	background-color: rgb(191, 188, 188);
+	width: 90%;
 }

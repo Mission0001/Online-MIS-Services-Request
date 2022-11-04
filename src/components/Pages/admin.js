@@ -3,18 +3,15 @@ import React from 'react';
 
 const Login = () => {
 	return (
-		<div className='wrapper2'>
+		<div className='wrapper4'>
 			<div>
-				<h1 className='greeting'>
-					Welcome to <br />
-				Caraga State University Cabadbaran City <br />
-					MIS Services Request
+				<h1 className='greeting1'>
 				</h1>
 			</div>
-			<div>
-				<form className='form1'>
+			<div className='form-container'>
+				<form className='form'>
 					<fieldset className='formlogin'>
-						<h1>Sign in</h1>
+						<h1>Admin Access</h1>
 						<p>Valid accounts</p>
 						<ul>
 							<li>Mywork Account</li>
@@ -22,6 +19,7 @@ const Login = () => {
 						</ul>
 					<input className='input1' type='username' placeholder="Account Username" ></input>
 						<br />
+
 						<input className='input1' type='password'  placeholder="Account Password" ></input> <br/>
 						<button className='button1' type='submit'>Login</button>
 

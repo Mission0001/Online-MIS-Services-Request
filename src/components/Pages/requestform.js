@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Login = () =>{
+const Login = () => {
 	return (
 		<div className='wrapper'>
 			<div className='container'>
@@ -28,16 +28,18 @@ const Login = () =>{
 							<label htmlFor='contact-no'>Contact No.:</label>
 							<input type='tel'></input>
 
-							<label htmlFor='email'>Email:</label>
+							<label htmlFor='email'>Email Address:</label>
 							<input type='email'></input>
-
+							<br />
+						</div>
+						<div className='checkboxwrapper'>
 							<input type='checkbox'></input>
 							<label htmlFor='student'>Student</label>
 							<input type='checkbox'></input>
 							<label htmlFor='employee'>Employee</label>
 							<input type='checkbox'></input>
 							<label htmlFor='others'>others, please specify:</label>
-							<input type='text'></input>
+							<input className="others" type='text'></input>
 						</div>
 
 						<p className='bold'>B. Type of Service (Select as appropriate)</p>
@@ -168,6 +170,6 @@ const Login = () =>{
 			</div>
 		</div>
 	);
-}
+};
 
 export default Login;

@@ -1,5 +1,6 @@
 import React from 'react';
-import Logo1 from '../Images/MIS SERVICES REQUEST (Presentation (169)) (Logo) (500 × 200 px) (700 × 200 px) (900 × 200 px) (1000 × 200 px).png';
+import Logo1 from '../Images/mylogo.png';
+
 const Header = () => {
 	return (
 		<div className='header'>
