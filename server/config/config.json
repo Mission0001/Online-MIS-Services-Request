@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "Password123#@!",
-    "database": "mydb",
+    "database": "MISRS",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },

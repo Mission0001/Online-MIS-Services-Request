@@ -9,7 +9,7 @@ const Login = () => {
 				</h1>
 			</div>
 			<div className='form-container'>
-				<form className='form'>
+				<form className='form2'>
 					<fieldset className='formlogin'>
 						<h1>Admin Access</h1>
 						<p>Valid accounts</p>

@@ -7,6 +7,8 @@ const listofUsers = await Users.findAll();
 res.json(listofUsers);
 });
 
+
+ 
 router.post('/', async (req, res) => {
 	const post = req.body;
 	await Users.create(post);
@@ -14,3 +16,4 @@ router.post('/', async (req, res) => {
 });
 
 module.exports = router;
+  
